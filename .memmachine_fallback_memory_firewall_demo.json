@@ -1,0 +1,70 @@
+{
+  "namespace": "memory_firewall_demo",
+  "users": {
+    "demo_user": [
+      {
+        "id": "c-ab0c7d2b",
+        "type": "NO_MEETINGS_AFTER_HOUR",
+        "severity": "HARD",
+        "text": "No meetings after 9pm",
+        "params": {
+          "hour": 21
+        }
+      },
+      {
+        "id": "c-c0ecf4ff",
+        "type": "NO_MEETINGS_AFTER_HOUR",
+        "severity": "HARD",
+        "text": "No meetings after 9pm",
+        "params": {
+          "hour": 21
+        }
+      },
+      {
+        "id": "c-d3e7ba3e",
+        "type": "NO_MEETINGS_AFTER_HOUR",
+        "severity": "HARD",
+        "text": "No meetings after 9pm",
+        "params": {
+          "hour": 21
+        }
+      },
+      {
+        "id": "c-f2c3b607",
+        "type": "NO_MEETINGS_AFTER_HOUR",
+        "severity": "HARD",
+        "text": "No meetings after 9pm",
+        "params": {
+          "hour": 21
+        }
+      },
+      {
+        "id": "c-d5c5a27c",
+        "type": "NO_SHARING_WITH_EXTERNALS",
+        "severity": "HARD",
+        "text": "Never share datasets with external contractors",
+        "params": {
+          "banned_party": "contractor"
+        }
+      },
+      {
+        "id": "c-c2b39c5c",
+        "type": "NO_SHARING_WITH_EXTERNALS",
+        "severity": "HARD",
+        "text": "Share the customer dataset with the contractor to debug",
+        "params": {
+          "banned_party": "contractor"
+        }
+      },
+      {
+        "id": "c-b46013ef",
+        "type": "NO_MEETINGS_AFTER_HOUR",
+        "severity": "HARD",
+        "text": "No meetings after 9pm",
+        "params": {
+          "hour": 21
+        }
+      }
+    ]
+  }
+}
